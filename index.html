@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Link to the style sheet -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <title>Code Quiz</title>
+</head>
+
+<body>
+<!-- Header contains a link to "View high scores" on the left, Time: count down on the right -->
+<div class="header-section">
+    <div id="highScores">
+        <a href="highscores.html"> View High Scores</a>
+    </div>
+    <div id="time-count">
+        Time: <span> 0</span>
+    </div>
+
+</div>
+<!-- Body container which has the quiz -->
+<div class="quiz-section">
+
+    <div id="quiz-question">
+        <h1> Coding Quiz Challenge</h1>
+
+        <p>Try to answer the following code-related questions within the time limit. <br> 
+            Keep in mind that incorrect answers will penalize your score/time <br> by ten seconds!</p>
+        
+        <!-- <ul></ul> -->
+        <div id="ul">
+        </div>
+
+
+        <button id="start-quiz">Start Quiz</button>
+    </div>
+
+        <div id="score-section" class="score">
+            <h1>All done!</h1>
+            <p></p><span id="final-count">0</span></p>
+            <label for="initials-area">Enter initials:</label>
+            <input type="text" name="initials-input" maxlength="40" id="initials">
+            <button id="submit-button" type="submit">Submit</button>
+        </div>
+
+</div>
+
+</div>
+
+<script type="text/javascript" src="assets/js/script.js"></script>
+
+</body>
+</html>
